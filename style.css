@@ -1,0 +1,102 @@
+html, body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: url("./img/main.jpg") ;
+    background-size: cover;
+    
+}
+body{
+    flex-direction: column;
+    width: 1024px;
+    }  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 28%;
+    margin-right: 2%;
+  }
+h1 {
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+header div{
+    margin-left: 2%;
+    font-weight: lighter;
+}
+
+header img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+#sectionExperience{
+    width: 1024px;
+
+    }
+
+#listSkills{
+        list-style-type: none;
+        padding: 0;
+}
+#listSkills li {
+    font-weight: bold;
+}
+section img{
+    width: 80px; 
+    height: 75px;
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 50%;
+}
+section p{
+    margin-right: 2%;
+}
+section {
+    display: flex;
+    font-weight: lighter;
+    color: #bac8c9;
+    background: #09262e;
+}
+main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 70%;
+    background: #09262e;
+    opacity: 0.8;
+}
+main div{
+    margin-right: 2%;
+    margin-left: 2%;
+    color: #b3c9ca;
+}
+a{
+    color: blanchedalmond;
+}
+
+footer{
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: rgb(204, 223, 211);
+    background: #010b13;
+    opacity: 0.9;
+}
+#containerAbility{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
