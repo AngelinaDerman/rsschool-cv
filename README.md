@@ -1,1 +1,0 @@
-https://AngelinaDerman.github.io/rsschool-cv/cv
