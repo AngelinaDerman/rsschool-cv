@@ -24,6 +24,9 @@ h1 {
     font-weight: lighter;
     
 }
+h4 {
+    margin-bottom: 5px;   
+}
 
 header div{
     margin-left: 2%;
