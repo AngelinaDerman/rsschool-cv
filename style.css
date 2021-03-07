@@ -24,7 +24,7 @@ h1 {
     font-weight: lighter;
     
 }
-h4 {
+h4{
     margin-bottom: 5px;   
 }
 
@@ -101,6 +101,9 @@ footer{
 #containerAbility{
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
+}
+#containerAbility h4{
+padding-left: 40px;
 }
